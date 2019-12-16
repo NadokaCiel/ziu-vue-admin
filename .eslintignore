@@ -1,0 +1,5 @@
+scripts/**/*.js
+config/*.js
+test/*.js
+node_modules/*.js
+vue.config.js
