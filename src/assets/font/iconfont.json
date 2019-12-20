@@ -1,0 +1,16 @@
+{
+  "id": "1575063",
+  "name": "vs-admin",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "费芮后端图标",
+  "glyphs": [
+    {
+      "icon_id": "5082302",
+      "name": "仪表盘",
+      "font_class": "yibiaopan",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    }
+  ]
+}
