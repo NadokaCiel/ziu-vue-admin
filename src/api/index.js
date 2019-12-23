@@ -6,7 +6,7 @@ import { defaultSign } from 'mksign';
 import config from '@/config';
 import ApiList from './apiList';
 
-const vm = new Vue();
+// const vm = new Vue();
 
 const getApi = (version) => {
   // console.log(config);

@@ -3,3 +3,4 @@ config/*.js
 test/*.js
 node_modules/*.js
 vue.config.js
+src/assets/**/*.js
