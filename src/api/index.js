@@ -1,5 +1,5 @@
 import LocalStorage from 'ciel-localstorage';
-import Vue from 'vue';
+// import Vue from 'vue';
 import Api from 'cnfapi';
 import { defaultSign } from 'mksign';
 
