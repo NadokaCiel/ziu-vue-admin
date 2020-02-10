@@ -13,7 +13,7 @@
       </div>
       <el-form-item prop="username">
         <span class="svg-container">
-          <svg-icon icon-class="user" />
+          <i class="iconfont iconyonghu"></i>
         </span>
         <el-input
           ref="username"
@@ -27,7 +27,7 @@
       </el-form-item>
       <el-form-item prop="password">
         <span class="svg-container">
-          <svg-icon icon-class="password" />
+          <i class="iconfont iconmima"></i>
         </span>
         <el-input
           :key="passwordType"
@@ -44,7 +44,9 @@
           class="show-pwd"
           @click="showPwd"
         >
-          <svg-icon :icon-class="passwordType === 'password' ? 'eye' : 'eye-open'" />
+          <i
+            class="iconfont"
+            :class="passwordType === 'password' ? 'iconyincang' : 'iconchakan'"></i>
         </span>
       </el-form-item>
       <el-button
@@ -115,6 +117,12 @@ export default {
       });
     },
     handleLogin() {
+      // TODO 测试各角色权限
+      this.$localStorage.set('token', 11111);
+      this.$localStorage.set('name', this.loginForm.username);
+      this.$localStorage.set('role', this.loginForm.username);
+      this.$router.push({ path: this.redirect || '/' });
+
       // this.$refs.loginForm.validate(valid => {
       //   if (valid) {
       //     this.loading = true;

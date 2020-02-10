@@ -1,35 +1,29 @@
 <template>
-  <div class="dashboard-container">
-    <div class="dashboard-text">name: {{ name }}</div>
-    <div class="dashboard-text">role: {{ role }}</div>
+  <div class="menu-container">
+    <div class="menu-text">name: {{ name }}</div>
+    <div class="menu-text">role: {{ role }}</div>
   </div>
 </template>
 
 <script>
-// import { mapGetters } from 'vuex';
 
 export default {
-  name: 'Dashboard',
+  name: 'Menu',
   data() {
     return {
       name: '',
       role: '',
-    };
+    }
   },
   created() {
     this.name = this.$localStorage.get('name');
     this.role = this.$localStorage.get('role');
   },
-  // computed: {
-  //   ...mapGetters([
-  //     'name',
-  //   ]),
-  // },
 };
 </script>
 
 <style lang="scss" scoped>
-.dashboard {
+.menu {
   &-container {
     margin: 30px;
   }

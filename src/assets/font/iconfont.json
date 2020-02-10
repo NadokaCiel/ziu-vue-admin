@@ -6,11 +6,74 @@
   "description": "费芮后端图标",
   "glyphs": [
     {
+      "icon_id": "422472",
+      "name": "保存",
+      "font_class": "baocun",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
+    },
+    {
+      "icon_id": "785060",
+      "name": "隐藏",
+      "font_class": "yincang",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "1129591",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "1345584",
+      "name": "路径管理",
+      "font_class": "icon-lujingguanli",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "4933437",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e768",
+      "unicode_decimal": 59240
+    },
+    {
       "icon_id": "5082302",
       "name": "仪表盘",
       "font_class": "yibiaopan",
       "unicode": "e651",
       "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "6010895",
+      "name": "查看",
+      "font_class": "chakan",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "6010908",
+      "name": "用户名",
+      "font_class": "yonghuming",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "12184902",
+      "name": "编辑",
+      "font_class": "bianji",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "12685013",
+      "name": "删除",
+      "font_class": "icon_huabanfuben",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
     }
   ]
 }

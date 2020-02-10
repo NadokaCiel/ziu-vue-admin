@@ -5,10 +5,10 @@ import Permission from '@/store/modules/permission';
 import Login from '@/views/Login/Index';
 import Dashboard from '@/views/Dashboard/Index';
 
-// import Catalog from './catalog';
-
 /* Layout */
 import Layout from '@/layout';
+
+import Catalog from './catalog';
 
 Vue.use(Router);
 
@@ -62,8 +62,15 @@ export const constantRoutes = [
     }],
   },
 
+  {
+    path: '/menu',
+    component: Layout,
+    redirect: '/menu/list',
+    children: [...Catalog],
+  },
+
   // 404 page must be placed at the end !!!
-  { path: '*', redirect: '/404', hidden: true },
+  { path: '*', redirect: '/error/404', hidden: true },
 ];
 
 const createRouter = () => new Router({

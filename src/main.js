@@ -1,5 +1,7 @@
 import Vue from 'vue';
 
+import LocalStorage from 'ciel-localstorage';
+
 import 'normalize.css'; // A modern alternative to CSS resets
 
 import ElementUI from 'element-ui';
@@ -14,6 +16,7 @@ import store from './store';
 
 import '@/assets/font/iconfont.css';
 
+Vue.prototype.$localStorage = LocalStorage;
 // set ElementUI lang to EN
 // Vue.use(ElementUI, { locale })
 // 如果想要中文版 element-ui，按如下方式声明
