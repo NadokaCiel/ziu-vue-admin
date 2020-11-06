@@ -1,7 +1,7 @@
 ## ziu-vue-admin
 ----------------------------
 
-- author: Ciel | Email:ciel.zhang@verystar.cn
+- author: Ciel | Email:727325409@qq.com
 - description: A Vue.js project with ziu
 
 ### 使用说明
